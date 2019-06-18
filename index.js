@@ -9,9 +9,10 @@ function writeCards(namesArray, birthday) {
     return cards;
 }
 
-function countdown() {
-  let i = 0;
-  while (i > 0) {
-    console.log(i--)
+function countdown(countdown) {
+  while (countdown > 0) {
+    console.log(countdown);
+    countdown -= 1;
   }
+  console.log(countdown);
 }
